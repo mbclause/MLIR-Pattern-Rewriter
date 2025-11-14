@@ -13,11 +13,12 @@ arith.cmpi eq …, 0  +  arith.select {0,4}
 This matches the assignment’s input/output shape and demonstrates pattern-based IR rewriting, dominance-safe insertion, and running a custom pass via an mlir-opt-style driver.
 
 # Repo Layout
-
+```
 .
 ├─ main.cpp        # custom mlir-opt-style driver + pass registration
 ├─ input.mlir      # sample input IR (assignment input)
 └─ README.md
+```
 
 # Prerequisites
 
