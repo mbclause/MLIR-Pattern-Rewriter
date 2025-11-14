@@ -1,4 +1,4 @@
-## MLIR InstCombine
+## MLIR Patter Rewriter
 
 An MLIR optimization pass that rewrites:
 ```
